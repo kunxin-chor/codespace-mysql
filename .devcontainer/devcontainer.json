@@ -3,6 +3,5 @@
   "dockerComposeFile": "../docker-compose.yml",
   "service": "devcontainer",
   "workspaceFolder": "/workspace",
-  "forwardPorts": [3306],
-  "postCreateCommand": "echo 'Dev environment with MySQL is now set up!'"
+  "forwardPorts": [3306]
 }
