@@ -1,0 +1,7 @@
+{
+  "name": "My Dev Environment",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "mysql",
+  "forwardPorts": [3306],
+  "postCreateCommand": "echo 'MySQL is now set up!'"
+}
